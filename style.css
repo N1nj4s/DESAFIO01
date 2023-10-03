@@ -1,0 +1,106 @@
+*
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('sunset-4k-downloads-for-pc-wallpaper-preview-transformed.jpeg');
+}
+
+h1{
+    text-align: center;
+    color: beige;
+}
+
+p{
+    text-align: center;
+    color: antiquewhite;
+    background-color: blueviolet;
+    padding: 10px;
+    border: 2px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+    color: aliceblue;
+    width: 50%;
+    height: 30px;
+    background-color: blueviolet;
+    margin: auto;
+    animation-name: animacao-letra;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+}
+
+.Container{
+    text-align: center;
+    color: azure;
+    background-color: blueviolet;
+    padding: 10px;
+    border: none;
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.Container button{
+    background-color: silver ;
+    width: 70px;
+    height: 40px;
+    color: black;
+    border-radius: 50px;
+}
+
+.imagem{
+    background-color: transparent;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes animacao-letra {
+    0% {
+      font-size: 19px;
+    }
+
+    50% {
+      font-size: 26px;
+    }
+
+    100% {
+      font-size: 19px;
+    }
+  }
+
